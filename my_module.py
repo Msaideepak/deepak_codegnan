@@ -1,6 +1,9 @@
-def add(a,b):
-    return a+b
-def sub(a,b):
-    return a-b
-
-
+def prime_num(num):
+  count = 0
+  for i in range(1 ,num+1):
+     if num%i == 0:
+         count+=1
+  if count == 2:
+     return True
+  else:
+     return False
