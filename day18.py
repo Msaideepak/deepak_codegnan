@@ -21,12 +21,14 @@ Access Specifiers
 
 3.private --> systax -- __name,, this one is restricted
 
+4.self --> this keyword is instance variable and unique for each object
+
 '''
 class some:
     def __init__(self):
         self.public = "public"
-        self.protected = "_protected"
-        self.private = "__private"
+        self.protected = "protected"
+        self.private = "private"
 any = some()
 print(any.public)
 print(any.protected)
