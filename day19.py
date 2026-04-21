@@ -56,8 +56,10 @@ inheritance
 -----------
 --> this allows a child class (sub class) to acquire the attributes and methods
     of a parent class (base class) this is called inheritance
-1.single inheritance
-2.multiple
+    
+1.single inheritance --> using single method of the class from base class is know as single
+
+2.multiple .inheritance --> a child class inherits from more than one parent class..
 
 super()
 ------
