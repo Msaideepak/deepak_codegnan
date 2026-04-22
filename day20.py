@@ -59,6 +59,13 @@ thing.parent_()
 thing._child()
 thing._child()
 thing.child()
+
+-->Hybrid-inheritance
+------------------
+--> this is a combination of two or more types of inheritance, such as
+single multiple, multi level, or hierachical all this in a single class...
+
+
 '''
 class parent:
     def parent_(self):
