@@ -29,7 +29,7 @@ class person:
         print("id: ", self.id)
         print("course: ", self.course)
         print("professor: ", self.professor)
-obj = person("deepak", "24", "btech", "21nu1a0570", "python", "bhanuteja")
+obj = person("deepak", "24", "btech", "21nu1a0570", "python", "bhanutejasir")
 obj.display()
 
 '''
